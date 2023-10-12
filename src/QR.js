@@ -2,7 +2,7 @@ import qrcode from './image-qr-code.png'
 
 export default function QR () {
     return (
-        <div className="p-5 max-w-sm max-h-min bg-white border border-gray-200 rounded-lg shadow">
+        <div className="p-5 max-w-xs max-h-min bg-white border border-gray-200 rounded-lg shadow">
             <a  href="#">
                 <img className="rounded-lg" src={qrcode} alt="" />
             </a>
